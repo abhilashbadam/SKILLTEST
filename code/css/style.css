@@ -1,0 +1,99 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+      .row.content {height: 1350px}
+      /* Set gray background color and 100% height */
+      .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+          margin-top: 10px;
+        
+      }
+      /* Set black background color, white text and some padding */
+      footer {
+      background-color:#f1f1f1;
+      color: black;
+      padding: 15px;
+          margin-top: 10px;
+          text-align: center;
+          -moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+      }
+      li>a {
+      font-weight: bold;
+      color: #4C141B;
+      }
+      
+      p {
+      font-family: "Times New Roman", Times, serif;
+      }
+      /* li > a:link,
+      li > a:active,
+      li > a:hover,
+      li > a:visited {
+      font-weight: bold;
+      color: #4C141B;
+      }*/
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+      .sidenav {
+      height: auto;
+      padding: 15px;
+      }
+      .row.content {height: auto;} 
+      }
+	  .pageHeader{
+		background-color:#f1f1f1;border-radius: 5px;padding-left:5%;
+          -moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+	  }
+.heading{
+    margin-top: 4px;
+    margin-left: 4px;
+    font-weight: bold;
+    color: darkgrey;
+    line-height: normal;
+    height: 20px;
+}
+.dots{
+    background: linear-gradient(90deg, #fff 2px, transparent 4%) center, linear-gradient(#fff 2px, transparent 4%) center, #ccc;
+  background-size: 4px 4px;
+  height: 4em;
+  width: 300px;
+
+  position: relative;
+ 
+}
+	  .menuUl{
+		border-radius: 25px;
+	  }
+.sidenav{
+    border-radius:25px;
+    margin-left: 20px;
+     box-sizing: border-box;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+    
+}
+li a{
+    color:red;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color:gainsboro!important;
+    color:red;
+}
+	  .profileImage{
+		border-radius:7px!important;
+          width:175px;
+          padding-left: 10px;
+          padding-top: 15px;
+	  }
+      .detail{
+        padding-top: 5%;
+    
+          }
+	  .hidden{
+		display:none;
+	  }
